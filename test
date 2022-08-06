@@ -1,585 +1,199 @@
-LBL         75
-UCOFF
-PSHM_B      VAR437
-PSHN_L      0
-CAL         NT
-JPF         LABEL0
-PSHM_B      VAR437
-PSHN_L      6
-CAL         NT
-JPF         LABEL0
-PSHM_B      VAR437
-PSHN_L      7
-CAL         NT
-JPF         LABEL0
-PSHM_B      VAR437
-PSHM_B      VAR453
-CAL         NT
-JPF         LABEL0
-PSHM_B      VAR437
-PSHM_B      VAR454
-CAL         NT
-JPF         LABEL0
-PSHM_B      VAR437
-PSHM_B      VAR455
-CAL         NT
-JPF         LABEL0
-IDLOCK      12
-IDLOCK      11
-PSHN_L      5
-PSHN_L      200
-REQ         18
-LABEL0
-PSHM_W      VAR256
-PSHN_L      430
-CAL         EQ
-JPF         LABEL1
-PSHM_B      VAR436
-PSHN_L      4
-CAL         AND
-PSHN_L      0
-CAL         EQ
-JPF         LABEL1
-PSHN_L      3
-PSHN_L      14
-REQ         1
-PSHN_L      3
-PSHN_L      31
-REQ         2
-PSHN_L      3
-PSHN_L      40
-REQ         3
-LABEL1
-PSHM_W      VAR256
-PSHN_L      434
-CAL         EQ
-JPF         LABEL6
-PSHN_L      3
-PSHN_L      4
-REQ         0
-PSHN_L      127
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 5
-PSHN_L      30
-WAIT
-PSHN_L      255
-PSHN_L      255
-PSHN_L      255
-DCOLSUB
-PSHN_L      0
-PSHN_L      15
-PSHN_L      8
-PSHN_L      90
-AMESW
-PSHN_L      0
-PSHN_L      16
-PSHN_L      130
-PSHN_L      30
-AMESW
-PSHN_L      255
-PSHN_L      255
-PSHN_L      255
-PSHN_L      0
-PSHN_L      0
-PSHN_L      0
-PSHN_L      30
-FCOLSUB
-COLSYNC
-PSHN_L      3
-PSHN_L      22
-REQ         1
-PSHN_L      0
-PSHN_L      17
-PSHN_L      130
-PSHN_L      30
-RAMESW
-PSHN_L      45
-WAIT
-PSHN_L      0
-WINCLOSE
-PSHN_L      3
-PSHN_L      5
-REQEW       0
-PSHN_L      5
-PSHN_L      6
-REQSW       0
-PSHN_L      5
-PSHN_L      24
-REQEW       1
-PSHN_L      90
-PREMAPJUMP2
-PSHN_L      0
-PSHN_L      25
-PSHN_L      8
-PSHN_L      8
-AMESW
-PSHN_L      4
-PSHN_L      7
-REQ         0
-PSHN_L      4
-PSHN_L      25
-REQ         1
-PSHN_L      5
-PSHN_L      34
-REQ         2
-PSHN_L      5
-PSHN_L      43
-REQEW       3
-PSHN_L      1
-POPM_B      VAR1038
-PSHN_L      0
-POPM_B      VAR1035
-PSHN_L      4
-PSHN_L      44
-REQEW       3
-PSHN_L      0
-POPM_B      VAR1036
-PSHN_L      4
-PSHN_L      35
-REQEW       2
-PSHN_L      0
-POPM_B      VAR1034
-PSHN_L      3
-PSHN_L      8
-REQ         0
-PSHN_L      0
-POPM_B      VAR1037
-PSHN_L      3
-PSHN_L      26
-REQEW       1
-PSHN_L      99
-PSHN_L      1
-PSHN_L      127
-PSHN_L      80
-EFFECTPLAY
-PSHN_L      2
-PARTICLEON
-PSHN_L      3
-PARTICLEON
-PSHN_L      4
-PARTICLEON
-PSHN_L      5
-PARTICLEON
-PSHN_L      6
-PARTICLEON
-PSHN_L      7
-PARTICLEON
-PSHN_L      8
-PARTICLEON
-PSHN_L      9
-PARTICLEON
-PSHN_L      10
-PARTICLEON
-PSHN_L      11
-PARTICLEON
-PSHN_L      12
-PARTICLEON
-PSHN_L      13
-PARTICLEON
-PSHN_L      14
-PARTICLEON
-PSHN_L      15
-PARTICLEON
-PSHN_L      1
-POPM_B      VAR1035
-PSHN_L      1
-POPM_B      VAR1036
-PSHN_L      1
-POPM_B      VAR1037
-PSHN_L      1
-POPM_B      VAR1034
-PSHN_L      5
-PSHN_L      44
-REQ         3
-PSHN_L      5
-PSHN_L      35
-REQ         2
-PSHN_L      5
-PSHN_L      26
-REQ         1
-PSHN_L      2
-PSHN_L      8
-REQEW       0
-PSHN_L      0
-WINCLOSE
-PSHN_L      1
-WINCLOSE
-PSHN_L      2
-POPM_B      VAR1034
-PSHN_L      5
-PSHN_L      8
-REQ         0
-PSHN_L      2
-POPM_B      VAR1036
-PSHN_L      4
-PSHN_L      35
-REQ         2
-PSHN_L      2
-POPM_B      VAR1035
-PSHN_L      4
-PSHN_L      44
-REQEW       3
-PSHN_L      127
-PSHN_L      127
-PSHN_L      2
-EFFECTPLAY2 6
-PSHN_L      3
-POPM_B      VAR1036
-PSHN_L      5
-PSHN_L      35
-REQ         2
-PSHN_L      3
-POPM_B      VAR1035
-PSHN_L      5
-PSHN_L      44
-REQ         3
-PSHN_L      2
-POPM_B      VAR1037
-PSHN_L      5
-PSHN_L      26
-REQEW       1
-PSHN_L      0
-PSHN_L      90
-PSHN_L      0
-MUSICVOLTRANS
-PSHN_L      100
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 7
-PSHN_L      2
-PARTICLEOFF
-PSHN_L      3
-PARTICLEOFF
-PSHN_L      4
-PARTICLEOFF
-PSHN_L      5
-PARTICLEOFF
-PSHN_L      6
-PARTICLEOFF
-PSHN_L      7
-PARTICLEOFF
-PSHN_L      8
-PARTICLEOFF
-PSHN_L      9
-PARTICLEOFF
-PSHN_L      10
-PARTICLEOFF
-PSHN_L      11
-PARTICLEOFF
-PSHN_L      12
-PARTICLEOFF
-PSHN_L      13
-PARTICLEOFF
-PSHN_L      14
-PARTICLEOFF
-PSHN_L      15
-PARTICLEOFF
-PSHN_L      30
-WAIT
-PSHN_L      100
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 7
-PSHN_L      20
-WAIT
-PSHN_L      100
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 7
-PSHN_L      0
-PSHN_L      34
-PSHN_L      300
-PSHN_L      50
-RAMESW
-PSHN_L      1
-PSHN_L      35
-PSHN_L      300
-PSHN_L      120
-AMESW
-PSHN_L      0
-PSHN_L      0
-PSHN_L      0
-PSHN_L      255
-PSHN_L      255
-PSHN_L      255
-PSHN_L      60
-FCOLSUB
-PSHN_L      0
-PSHN_L      255
-PSHN_L      255
-SETPARTY
-COLSYNC
-MAPFADEOFF
-PSHN_L      90
-PSHN_L      0
-MAPJUMPO
-PSHN_L      0
-PSHN_L      1
-PSHN_L      8
-PSHN_L      8
-AMESW
-PSHN_L      1
-ADDMEMBER
-PSHN_L      3
-ADDMEMBER
-PSHN_L      5
-ADDMEMBER
-PSHN_L      4
-ADDMEMBER
-PSHN_L      2
-ADDMEMBER
-PSHN_L      1
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      3
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      5
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      4
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      2
-PSHN_L      1
-PSHN_L      1
-HOLD
-PSHN_L      0
-PSHN_L      255
-PSHN_L      255
-SETPARTY
-MENUPHS
-FADEBLACK
-PSHN_L      1
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         LS
-JPF         LABEL2
-PSHN_L      1
-PSHN_L      1
-PSHN_L      1
-HOLD
-LABEL2
-PSHN_L      3
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         LS
-JPF         LABEL3
-PSHN_L      3
-PSHN_L      1
-PSHN_L      1
-HOLD
-LABEL3
-PSHN_L      5
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         LS
-JPF         LABEL4
-PSHN_L      5
-PSHN_L      1
-PSHN_L      1
-HOLD
-LABEL4
-PSHN_L      4
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         LS
-JPF         LABEL5
-PSHN_L      4
-PSHN_L      1
-PSHN_L      1
-HOLD
-LABEL5
-PSHN_L      816
-PSHN_L      -509
-PSHN_L      -2528
-PSHN_L      0
-PSHN_L      128
-MAPJUMP3    79
-JMP         LABEL7
-LABEL6
-FADEIN
-LABEL7
-PSHM_W      VAR256
-PSHN_L      430
-CAL         EQ
-JPF         LABEL11
-PSHM_B      VAR436
-PSHN_L      4
-CAL         AND
-PSHN_L      0
-CAL         EQ
-JPF         LABEL11
-PSHN_L      0
-PSHN_L      180
-PSHN_L      0
-MUSICVOLTRANS
-PSHM_B      VAR436
-PSHN_L      4
-CAL         OR
-POPM_B      VAR436
-PSHM_B      VAR436
-PSHN_L      1
-CAL         AND
-JPF         LABEL8
-PSHM_B      VAR436
-PSHN_L      2
-CAL         AND
-JPF         LABEL8
-FADESYNC
-PSHN_L      3
-PSHN_L      15
-REQEW       1
-PSHN_L      3
-PSHN_L      59
-REQEW       6
-PSHN_L      3
-PSHN_L      16
-REQEW       1
-PSHN_L      3
-PSHN_L      17
-REQEW       1
-PSHN_L      3
-PSHN_L      32
-REQ         2
-PSHN_L      3
-PSHN_L      41
-REQEW       3
-LABEL8
-PSHM_B      VAR436
-PSHN_L      1
-CAL         AND
-JPF         LABEL9
-PSHM_B      VAR436
-PSHN_L      2
-CAL         AND
-PSHN_L      0
-CAL         EQ
-JPF         LABEL9
-PSHM_B      VAR436
-PSHN_L      8
-CAL         OR
-POPM_B      VAR436
-PSHN_L      3
-PSHN_L      15
-REQEW       1
-PSHN_L      1
-PSHN_L      61
-REQ         6
-PSHN_L      3
-PSHN_L      59
-REQEW       6
-PSHN_L      3
-PSHN_L      68
-REQEW       7
-PSHN_L      3
-PSHN_L      60
-REQEW       6
-PSHN_L      3
-PSHN_L      69
-REQ         7
-PSHN_L      3
-PSHN_L      63
-REQSW       6
-PSHN_L      3
-PSHN_L      20
-REQEW       1
-PSHN_L      3
-PSHN_L      18
-REQEW       1
-PSHN_L      3
-PSHN_L      32
-REQ         2
-PSHN_L      3
-PSHN_L      41
-REQEW       3
-LABEL9
-PSHM_B      VAR436
-PSHN_L      1
-CAL         AND
-PSHN_L      0
-CAL         EQ
-JPF         LABEL10
-PSHN_L      3
-PSHN_L      19
-REQEW       1
-PSHN_L      3
-PSHN_L      17
-REQEW       1
-PSHN_L      3
-PSHN_L      32
-REQ         2
-PSHN_L      3
-PSHN_L      41
-REQEW       3
-LABEL10
-PSHN_L      3
-PSHN_L      192
-REQEW       33
-PSHN_L      127
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 8
-PSHN_L      3
-PSHN_L      42
-REQ         3
-PSHN_L      3
-PSHN_L      33
-REQ         2
-PSHN_L      5
-PSHN_L      23
-REQEW       1
-PSHN_L      3
-PSHN_L      21
-REQEW       1
-PSHN_L      1
-PSHN_L      60
-PSHN_L      0
-SEVOLTRANS
-PSHN_L      18
-BATTLEMODE
-PSHN_L      60
-WAIT
-PSHN_L      0
-MUSICSTOP
-INITSOUND
-PSHN_L      4
-MUSICLOAD
-MUSICCHANGE
-PSHN_L      0
-PSHN_L      120
-PSHN_L      127
-MUSICVOLTRANS
-LABEL11
-PSHM_W      VAR256
-PSHN_L      421
-CAL         EQ
-JPF         LABEL12
-UCOFF
-PSHN_L      799
-PREMAPJUMP2
-PSHN_L      3
-PSHN_L      87
-REQ         11
-PSHN_L      3
-PSHN_L      92
-REQ         12
-PSHN_L      3
-PSHN_L      82
-REQEW       10
-PSHN_L      799
-PSHN_L      0
-MAPJUMPO
-LABEL12
-UCON
-HALT        0
-RET         8
+ucoff()
+if (437_ubyte != 0) and ((437_ubyte != 6) and ((437_ubyte != 7) and ((437_ubyte != 453_ubyte) and ((437_ubyte != 454_ubyte) and (437_ubyte != 455_ubyte))))) begin
+	idlock(12)
+	idlock(11)
+	seigyo#18.on1(5)
+end
+if (256_uword == 430) and ((436_ubyte & 0x4) == 0) begin
+	zell.bami1(3)
+	selphie.bami1(3)
+	quistis.bami1(3)
+end
+if 256_uword == 434 begin
+	squall.bami01(3)
+	effectplay2(5, 127, 127, 1)
+	wait(30)
+	dcolsub(255, 255, 255)
+	amesw(0, text_15, 8, 90)
+	amesw(0, text_16, 130, 30)
+	fcolsub(255, 255, 255, 0, 0, 0, 30)
+	colsync()
+	zell.utareru(3)
+	ramesw(0, text_17, 130, 30)
+	wait(45)
+	winclose(0)
+	squall.toujou(3, EW)
+	squall.waaa(5, SW)
+	zell.waaa(5, EW)
+	premapjump2(map_90)
+	amesw(0, text_25, 8, 8)
+	squall.muiteru(4)
+	zell.muiteru(4)
+	selphie.deru(5)
+	quistis.deru(5, EW)
+	1038_ubyte = 1
+	1035_ubyte = 0
+	quistis.engi(4, EW)
+	1036_ubyte = 0
+	selphie.engi(4, EW)
+	1034_ubyte = 0
+	squall.engi(3)
+	1037_ubyte = 0
+	zell.engi(3, EW)
+	effectplay(99, 1, 127, 80)
+	particleon(2)
+	particleon(3)
+	particleon(4)
+	particleon(5)
+	particleon(6)
+	particleon(7)
+	particleon(8)
+	particleon(9)
+	particleon(10)
+	particleon(11)
+	particleon(12)
+	particleon(13)
+	particleon(14)
+	particleon(15)
+	1035_ubyte = 1
+	1036_ubyte = 1
+	1037_ubyte = 1
+	1034_ubyte = 1
+	quistis.engi(5)
+	selphie.engi(5)
+	zell.engi(5)
+	squall.engi(2, EW)
+	winclose(0)
+	winclose(1)
+	1034_ubyte = 2
+	squall.engi(5)
+	1036_ubyte = 2
+	selphie.engi(4)
+	1035_ubyte = 2
+	quistis.engi(4, EW)
+	effectplay2(6, 127, 127, 2)
+	1036_ubyte = 3
+	selphie.engi(5)
+	1035_ubyte = 3
+	quistis.engi(5)
+	1037_ubyte = 2
+	zell.engi(5, EW)
+	musicvoltrans(0, 90, 0)
+	effectplay2(7, 100, 127, 1)
+	particleoff(2)
+	particleoff(3)
+	particleoff(4)
+	particleoff(5)
+	particleoff(6)
+	particleoff(7)
+	particleoff(8)
+	particleoff(9)
+	particleoff(10)
+	particleoff(11)
+	particleoff(12)
+	particleoff(13)
+	particleoff(14)
+	particleoff(15)
+	wait(30)
+	effectplay2(7, 100, 127, 1)
+	wait(20)
+	effectplay2(7, 100, 127, 1)
+	ramesw(0, text_34, 300, 50)
+	amesw(1, text_35, 300, 120)
+	fcolsub(0, 0, 0, 255, 255, 255, 60)
+	setparty(Squall, 255, 255)
+	colsync()
+	mapfadeoff()
+	mapjumpo(map_90, 0)
+	amesw(0, text_1, 8, 8)
+	addmember(Zell)
+	addmember(Quistis)
+	addmember(Selphie)
+	addmember(Rinoa)
+	addmember(Irvine)
+	hold(1, 0, 0)
+	hold(3, 0, 0)
+	hold(5, 0, 0)
+	hold(4, 0, 0)
+	hold(2, 1, 1)
+	setparty(Squall, 255, 255)
+	menuphs()
+	fadeblack()
+	isparty(Zell)
+	if temp_0 < 0 begin
+		hold(1, 1, 1)
+	end
+	isparty(Quistis)
+	if temp_0 < 0 begin
+		hold(3, 1, 1)
+	end
+	isparty(Selphie)
+	if temp_0 < 0 begin
+		hold(5, 1, 1)
+	end
+	isparty(Rinoa)
+	if temp_0 < 0 begin
+		hold(4, 1, 1)
+	end
+	mapjump3(79, map_816, -509, -2528, 0, 128)
+else
+	fadein()
+end
+if (256_uword == 430) and ((436_ubyte & 0x4) == 0) begin
+	musicvoltrans(0, 180, 0)
+	436_ubyte |= 0x4
+	if (436_ubyte & 0x1) and (436_ubyte & 0x2) begin
+		fadesync()
+		zell.kiku(3, EW)
+		munba01.siran(3, EW)
+		zell.siranka(3, EW)
+		zell.sime(3, EW)
+		selphie.un(3)
+		quistis.un(3, EW)
+	end
+	if (436_ubyte & 0x1) and ((436_ubyte & 0x2) == 0) begin
+		436_ubyte |= 0x8
+		zell.kiku(3, EW)
+		munba01.tome(1)
+		munba01.siran(3, EW)
+		munba02.deru(3, EW)
+		munba01.chotti(3, EW)
+		munba02.taijou(3)
+		munba01.taijou(3, SW)
+		zell.wakaran(3, EW)
+		zell.sime2(3, EW)
+		selphie.un(3)
+		quistis.un(3, EW)
+	end
+	if (436_ubyte & 0x1) == 0 begin
+		zell.dokkani(3, EW)
+		zell.sime(3, EW)
+		selphie.un(3)
+		quistis.un(3, EW)
+	end
+	Door1#33.on(3, EW)
+	effectplay2(8, 127, 127, 1)
+	quistis.nani(3)
+	selphie.nani(3)
+	zell.nani(5, EW)
+	zell.shugou(3, EW)
+	sevoltrans(1, 60, 0)
+	battlemode(18)
+	wait(60)
+	musicstop(0)
+	initsound()
+	musicload(4)
+	musicchange()
+	musicvoltrans(0, 120, 127)
+end
+if 256_uword == 421 begin
+	ucoff()
+	premapjump2(map_799)
+	shoin02.deru(3)
+	shoin03.deru(3)
+	shoin01.deru(3, EW)
+	mapjumpo(map_799, 0)
+end
+ucon()
+halt(0)
+ret(8)
