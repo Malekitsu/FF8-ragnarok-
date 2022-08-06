@@ -1,422 +1,391 @@
-LBL         65
-PSHM_W      VAR256
-PSHN_L      434
+LBL         42
+PSHM_B      VAR1026
+PSHN_L      0
 CAL         EQ
 JPF         LABEL0
-UCOFF
-BATTLEON
-PSHN_L      1
-POPM_B      VAR479
-PSHN_L      5
-PSHN_L      46
-REQEW       5
-PSHN_L      5
-PSHN_L      32
-REQ         4
-PSHN_L      0
-PSHN_L      1
 PSHN_L      200
+PSHN_L      94
+RCANIMEKEEP 3
+PSHN_L      0
+PSHN_L      8
+PSHN_L      210
+PSHN_L      8
+AMESW
+ANIMESYNC
+RANIMEKEEP  5
+PSHAC       MODEL0
+PSHN_L      12
+CTURN
+RANIMEKEEP  6
+PSHN_L      0
+PSHN_L      9
+PSHN_L      300
+PSHN_L      8
+AMESW
+JMP         LABEL14
+LABEL0
+PSHM_B      VAR1026
+PSHN_L      1
+CAL         EQ
+JPF         LABEL1
+RANIMEKEEP  7
+PSHN_L      1
+PSHN_L      11
+PSHN_L      160
 PSHN_L      8
 RAMESW
-PSHN_L      255
-PSHN_L      255
-PSHN_L      255
-PSHN_L      0
-PSHN_L      0
-PSHN_L      0
-PSHN_L      15
-FCOLSUB
-COLSYNC
-PSHN_L      4
-PSHN_L      62
-REQEW       7
-PSHN_L      4
-PSHN_L      31
-REQEW       4
-PSHN_L      5
-PSHN_L      4
-REQEW       0
-PSHN_L      0
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      0
-PSHN_L      7
-PSHN_L      8
-PSHN_L      150
-AMESW
-PSHN_L      0
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      0
-PSHN_L      10
-PSHN_L      8
-PSHN_L      200
-AMESW
-PSHN_L      1
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      1
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      2
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      2
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      3
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      3
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      4
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      4
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      5
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      0
-POPM_B      VAR1024
-PSHN_L      5
-PSHN_L      5
-REQEW       0
-PSHN_L      6
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      1
-POPM_B      VAR1024
-PSHN_L      5
-PSHN_L      5
-REQEW       0
-PSHN_L      7
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      0
-PSHN_L      25
-PSHN_L      300
-PSHN_L      200
-AMESW
-PSHN_L      5
-PSHN_L      72
-REQ         9
-PSHN_L      127
-PSHN_L      127
-PSHN_L      2
-EFFECTPLAY2 2
-PSHN_L      5
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQ         4
-PSHN_L      2
-POPM_B      VAR1024
-PSHN_L      5
-PSHN_L      5
-REQ         0
-PSHN_L      8
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      3
-POPM_B      VAR1024
-PSHN_L      5
-PSHN_L      5
-REQEW       0
-PSHN_L      99
-PSHN_L      4
-PSHN_L      127
-PSHN_L      64
-EFFECTPLAY
-PSHN_L      1
-PARTICLEON
-PSHN_L      2
-PARTICLEON
-PSHN_L      3
-PARTICLEON
-PSHN_L      4
-PARTICLEON
-PSHN_L      5
-PARTICLEON
-PSHN_L      6
-PARTICLEON
-PSHN_L      7
-PARTICLEON
-PSHN_L      8
-PARTICLEON
-PSHN_L      9
-PARTICLEON
-PSHN_L      9
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      4
-POPM_B      VAR1024
-PSHN_L      5
-PSHN_L      5
-REQEW       0
-PSHN_L      6
-POPM_B      VAR1025
-PSHN_L      5
-PSHN_L      33
-REQEW       4
-PSHN_L      0
-PSHN_L      4
-PSHN_L      255
-SETPARTY
-PSHN_L      0
-PSHN_L      1
-PSHN_L      1
-HOLD
-PSHN_L      4
-PSHN_L      1
-PSHN_L      1
-HOLD
-PSHN_L      2
-PSHN_L      1
-PSHN_L      1
-HOLD
-PSHN_L      1
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      3
-PSHN_L      0
-PSHN_L      0
-HOLD
-PSHN_L      5
-PSHN_L      0
-PSHN_L      0
-HOLD
-DYING
-MENUPHS
-PSHN_L      795
-PREMAPJUMP2
-FADEBLACK
-PSHN_L      5
-PSHN_L      6
-REQ         0
-PSHN_L      5
-PSHN_L      36
-REQ         4
-PSHN_L      5
-PSHN_L      55
-REQ         6
-PSHN_L      5
-PSHN_L      43
-REQEW       5
-FADEIN
-FADESYNC
-PSHN_L      4
-PSHN_L      56
-REQSW       6
-PSHN_L      5
-PSHN_L      44
-REQEW       5
-PSHN_L      3
-PSHN_L      57
-REQSW       6
-PSHN_L      5
-PSHN_L      45
-REQEW       5
-PSHN_L      436
-POPM_W      VAR256
-PSHN_L      8
-POPM_B      VAR437
-INITSOUND
-PSHN_L      795
-PSHN_L      -2360
-PSHN_L      -204
-PSHN_L      0
-PSHN_L      188
-MAPJUMP3    1
-UCON
-JMP         LABEL7
-LABEL0
-PSHM_W      VAR256
-PSHN_L      438
-CAL         EQ
-JPF         LABEL7
-UCOFF
-PSHN_L      99
-PSHN_L      4
-PSHN_L      127
-PSHN_L      64
-EFFECTPLAY
-PSHN_L      795
-PREMAPJUMP2
-PSHN_L      5
-PSHN_L      58
-REQEW       6
-PSHN_L      5
-PSHN_L      46
-REQEW       5
-PSHN_L      5
-PSHN_L      4
-PREQ        1
-PSHN_L      5
-PSHN_L      4
-PREQEW      2
-FADEIN
-PSHN_L      1
-PARTICLEON
-PSHN_L      2
-PARTICLEON
-PSHN_L      3
-PARTICLEON
-PSHN_L      4
-PARTICLEON
-PSHN_L      5
-PARTICLEON
-PSHN_L      6
-PARTICLEON
-PSHN_L      7
-PARTICLEON
-PSHN_L      8
-PARTICLEON
-PSHN_L      9
-PARTICLEON
-FADESYNC
-PSHN_L      10
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      1
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         GT
-JPF         LABEL1
-PSHN_L      5
-PSHN_L      12
-REQEW       1
-JMP         LABEL2
-LABEL1
-PSHN_L      5
-PSHN_L      25
-REQEW       3
-LABEL2
-PSHN_L      12
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      10
-PSHN_L      127
-PSHN_L      1
-EFFECTPLAY2 3
-PSHN_L      1
-PSHN_L      30
-PSHN_L      127
-SEVOLTRANS
-PSHN_L      0
-PSHN_L      0
-PSHN_L      0
-PSHN_L      50
-PSHN_L      50
-PSHN_L      50
-PSHN_L      30
-FCOLSUB
-COLSYNC
 PSHN_L      10
 WAIT
+PSHN_L      32
+ANIMESPEED
+JMP         LABEL14
+LABEL1
+PSHM_B      VAR1026
+PSHN_L      2
+CAL         EQ
+JPF         LABEL2
+ANIMESYNC
+PSHN_L      16
+ANIMESPEED
+RANIMEKEEP  6
 PSHN_L      1
-PSHN_L      30
+PSHN_L      13
+PSHN_L      160
+PSHN_L      8
+RAMESW
+PSHN_L      10
+WAIT
+PSHN_L      32
+ANIMESPEED
+JMP         LABEL14
+LABEL2
+PSHM_B      VAR1026
+PSHN_L      3
+CAL         EQ
+JPF         LABEL3
+ANIMESYNC
+PSHN_L      16
+ANIMESPEED
+RANIMEKEEP  8
+PSHN_L      1
+PSHN_L      15
+PSHN_L      160
+PSHN_L      8
+RAMESW
+PSHN_L      20
+WAIT
+PSHN_L      32
+ANIMESPEED
+JMP         LABEL14
+LABEL3
+PSHM_B      VAR1026
+PSHN_L      4
+CAL         EQ
+JPF         LABEL4
+ANIMESYNC
+PSHN_L      16
+ANIMESPEED
+RANIMEKEEP  6
 PSHN_L      0
-SEVOLTRANS
-PSHN_L      50
-PSHN_L      50
-PSHN_L      50
+PSHN_L      17
+PSHN_L      300
+PSHN_L      8
+AMESW
+JMP         LABEL14
+LABEL4
+PSHM_B      VAR1026
+PSHN_L      5
+CAL         EQ
+JPF         LABEL5
+RANIMEKEEP  9
 PSHN_L      0
-PSHN_L      0
-PSHN_L      0
-PSHN_L      30
-FCOLSUB
-COLSYNC
+PSHN_L      19
+PSHN_L      210
+PSHN_L      8
+AMES
+ANIMESYNC
 PSHN_L      0
 WINCLOSE
-PSHN_L      3
-ISPARTY
-PSHI_L      TEMP0
-PSHN_L      0
-CAL         GT
-JPF         LABEL3
-PSHN_L      5
-PSHN_L      26
-REQEW       3
-JMP         LABEL4
-LABEL3
-PSHN_L      5
-PSHN_L      19
-REQEW       2
-LABEL4
-PSHN_L      11
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
+PSHN_L      78
 PSHN_L      1
-ISPARTY
-PSHI_L      TEMP0
+RCANIMEKEEP 8
 PSHN_L      0
-CAL         GT
-JPF         LABEL5
-PSHN_L      5
-PSHN_L      13
-REQEW       1
-JMP         LABEL6
+PSHN_L      20
+PSHN_L      300
+PSHN_L      8
+AMESW
+ANIMESYNC
+PSHN_L      101
+PSHN_L      78
+RCANIMEKEEP 8
+JMP         LABEL14
 LABEL5
+PSHM_B      VAR1026
+PSHN_L      6
+CAL         EQ
+JPF         LABEL6
+ANIMESYNC
+PSHN_L      55
+PSHN_L      1
+RCANIMEKEEP 10
 PSHN_L      5
-PSHN_L      27
-REQEW       3
-LABEL6
-PSHN_L      13
-POPM_B      VAR1026
-PSHN_L      5
-PSHN_L      42
-REQEW       5
-PSHN_L      7
-POPM_B      VAR437
-INITSOUND
-DYING
-PSHN_L      795
-PSHN_L      -1612
-PSHN_L      -399
+PSHN_L      35
+REQ         4
 PSHN_L      0
-PSHN_L      252
-MAPJUMP3    10
+PSHN_L      22
+PSHN_L      300
+PSHN_L      8
+AMESW
+ANIMESYNC
+PSHN_L      80
+PSHN_L      55
+RCANIMEKEEP 10
+JMP         LABEL14
+LABEL6
+PSHM_B      VAR1026
+PSHN_L      7
+CAL         EQ
+JPF         LABEL7
+RANIMEKEEP  7
+PSHN_L      0
+PSHN_L      24
+PSHN_L      210
+PSHN_L      8
+AMESW
+PSHN_L      32
+ANIMESPEED
+ANIMESYNC
+PSHN_L      16
+ANIMESPEED
+JMP         LABEL14
 LABEL7
-HALT        0
+PSHM_B      VAR1026
+PSHN_L      8
+CAL         EQ
+JPF         LABEL8
+PSHN_L      5
+PSHN_L      51
+REQSW       6
+PSHN_L      42
+PSHN_L      1
+RCANIMEKEEP 4
+PSHN_L      92
+PSHN_L      10
+CTURNL
+ANIMESYNC
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+CANIMEKEEP  4
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      0
+PSHN_L      27
+PSHN_L      300
+PSHN_L      8
+AMESW
+ANIMESYNC
+JMP         LABEL14
+LABEL8
+PSHM_B      VAR1026
+PSHN_L      9
+CAL         EQ
+JPF         LABEL9
+PSHN_L      0
+PSHN_L      29
+PSHN_L      300
+PSHN_L      8
+RAMESW
+PSHN_L      5
+PSHN_L      52
+REQSW       6
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+CANIMEKEEP  4
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+CANIMEKEEP  4
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+CANIMEKEEP  4
+PSHN_L      0
+MESSYNC
+JMP         LABEL14
+LABEL9
+PSHM_B      VAR1026
+PSHN_L      10
+CAL         EQ
+JPF         LABEL10
+PSHN_L      0
+PSHN_L      34
+PSHN_L      160
+PSHN_L      8
+RAMESW
+PSHN_L      5
+PSHN_L      52
+REQSW       6
+PSHN_L      0
+PARTICLEON
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+PARTICLEON
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+PARTICLEON
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+MESSYNC
+JMP         LABEL14
+LABEL10
+PSHM_B      VAR1026
+PSHN_L      11
+CAL         EQ
+JPF         LABEL11
+PSHN_L      0
+PSHN_L      41
+PSHN_L      160
+PSHN_L      8
+RAMESW
+PSHN_L      5
+PSHN_L      53
+REQSW       6
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      0
+PARTICLEON
+PSHN_L      162
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+MESSYNC
+JMP         LABEL14
+LABEL11
+PSHM_B      VAR1026
+PSHN_L      12
+CAL         EQ
+JPF         LABEL12
+PSHN_L      0
+PSHN_L      37
+PSHN_L      160
+PSHN_L      8
+RAMESW
+PSHN_L      5
+PSHN_L      54
+REQSW       6
+PSHN_L      0
+PARTICLEON
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+PARTICLEON
+PSHN_L      100
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 1
+PSHN_L      60
+PSHN_L      43
+RCANIMEKEEP 4
+PSHN_L      10
+WAIT
+PSHN_L      0
+PARTICLEOFF
+ANIMESYNC
+PSHN_L      0
+MESSYNC
+JMP         LABEL14
+LABEL12
+PSHM_B      VAR1026
+PSHN_L      13
+CAL         EQ
+JPF         LABEL13
+RANIMEKEEP  7
+PSHN_L      0
+PSHN_L      44
+PSHN_L      160
+PSHN_L      8
+AMESW
+ANIMESYNC
+RANIMEKEEP  10
+PSHN_L      0
+PSHN_L      45
+PSHN_L      160
+PSHN_L      8
+AMESW
+JMP         LABEL14
+LABEL13
+PSHM_B      VAR1026
+PSHN_L      0
+CAL         EQ
+JPF         LABEL14
+LABEL14
 RET         8
