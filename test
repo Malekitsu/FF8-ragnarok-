@@ -1,0 +1,422 @@
+LBL         65
+PSHM_W      VAR256
+PSHN_L      434
+CAL         EQ
+JPF         LABEL0
+UCOFF
+BATTLEON
+PSHN_L      1
+POPM_B      VAR479
+PSHN_L      5
+PSHN_L      46
+REQEW       5
+PSHN_L      5
+PSHN_L      32
+REQ         4
+PSHN_L      0
+PSHN_L      1
+PSHN_L      200
+PSHN_L      8
+RAMESW
+PSHN_L      255
+PSHN_L      255
+PSHN_L      255
+PSHN_L      0
+PSHN_L      0
+PSHN_L      0
+PSHN_L      15
+FCOLSUB
+COLSYNC
+PSHN_L      4
+PSHN_L      62
+REQEW       7
+PSHN_L      4
+PSHN_L      31
+REQEW       4
+PSHN_L      5
+PSHN_L      4
+REQEW       0
+PSHN_L      0
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      0
+PSHN_L      7
+PSHN_L      8
+PSHN_L      150
+AMESW
+PSHN_L      0
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      0
+PSHN_L      10
+PSHN_L      8
+PSHN_L      200
+AMESW
+PSHN_L      1
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      1
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      2
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      2
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      3
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      3
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      4
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      4
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      5
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      0
+POPM_B      VAR1024
+PSHN_L      5
+PSHN_L      5
+REQEW       0
+PSHN_L      6
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      1
+POPM_B      VAR1024
+PSHN_L      5
+PSHN_L      5
+REQEW       0
+PSHN_L      7
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      0
+PSHN_L      25
+PSHN_L      300
+PSHN_L      200
+AMESW
+PSHN_L      5
+PSHN_L      72
+REQ         9
+PSHN_L      127
+PSHN_L      127
+PSHN_L      2
+EFFECTPLAY2 2
+PSHN_L      5
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQ         4
+PSHN_L      2
+POPM_B      VAR1024
+PSHN_L      5
+PSHN_L      5
+REQ         0
+PSHN_L      8
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      3
+POPM_B      VAR1024
+PSHN_L      5
+PSHN_L      5
+REQEW       0
+PSHN_L      99
+PSHN_L      4
+PSHN_L      127
+PSHN_L      64
+EFFECTPLAY
+PSHN_L      1
+PARTICLEON
+PSHN_L      2
+PARTICLEON
+PSHN_L      3
+PARTICLEON
+PSHN_L      4
+PARTICLEON
+PSHN_L      5
+PARTICLEON
+PSHN_L      6
+PARTICLEON
+PSHN_L      7
+PARTICLEON
+PSHN_L      8
+PARTICLEON
+PSHN_L      9
+PARTICLEON
+PSHN_L      9
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      4
+POPM_B      VAR1024
+PSHN_L      5
+PSHN_L      5
+REQEW       0
+PSHN_L      6
+POPM_B      VAR1025
+PSHN_L      5
+PSHN_L      33
+REQEW       4
+PSHN_L      0
+PSHN_L      4
+PSHN_L      255
+SETPARTY
+PSHN_L      0
+PSHN_L      1
+PSHN_L      1
+HOLD
+PSHN_L      4
+PSHN_L      1
+PSHN_L      1
+HOLD
+PSHN_L      2
+PSHN_L      1
+PSHN_L      1
+HOLD
+PSHN_L      1
+PSHN_L      0
+PSHN_L      0
+HOLD
+PSHN_L      3
+PSHN_L      0
+PSHN_L      0
+HOLD
+PSHN_L      5
+PSHN_L      0
+PSHN_L      0
+HOLD
+DYING
+MENUPHS
+PSHN_L      795
+PREMAPJUMP2
+FADEBLACK
+PSHN_L      5
+PSHN_L      6
+REQ         0
+PSHN_L      5
+PSHN_L      36
+REQ         4
+PSHN_L      5
+PSHN_L      55
+REQ         6
+PSHN_L      5
+PSHN_L      43
+REQEW       5
+FADEIN
+FADESYNC
+PSHN_L      4
+PSHN_L      56
+REQSW       6
+PSHN_L      5
+PSHN_L      44
+REQEW       5
+PSHN_L      3
+PSHN_L      57
+REQSW       6
+PSHN_L      5
+PSHN_L      45
+REQEW       5
+PSHN_L      436
+POPM_W      VAR256
+PSHN_L      8
+POPM_B      VAR437
+INITSOUND
+PSHN_L      795
+PSHN_L      -2360
+PSHN_L      -204
+PSHN_L      0
+PSHN_L      188
+MAPJUMP3    1
+UCON
+JMP         LABEL7
+LABEL0
+PSHM_W      VAR256
+PSHN_L      438
+CAL         EQ
+JPF         LABEL7
+UCOFF
+PSHN_L      99
+PSHN_L      4
+PSHN_L      127
+PSHN_L      64
+EFFECTPLAY
+PSHN_L      795
+PREMAPJUMP2
+PSHN_L      5
+PSHN_L      58
+REQEW       6
+PSHN_L      5
+PSHN_L      46
+REQEW       5
+PSHN_L      5
+PSHN_L      4
+PREQ        1
+PSHN_L      5
+PSHN_L      4
+PREQEW      2
+FADEIN
+PSHN_L      1
+PARTICLEON
+PSHN_L      2
+PARTICLEON
+PSHN_L      3
+PARTICLEON
+PSHN_L      4
+PARTICLEON
+PSHN_L      5
+PARTICLEON
+PSHN_L      6
+PARTICLEON
+PSHN_L      7
+PARTICLEON
+PSHN_L      8
+PARTICLEON
+PSHN_L      9
+PARTICLEON
+FADESYNC
+PSHN_L      10
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      1
+ISPARTY
+PSHI_L      TEMP0
+PSHN_L      0
+CAL         GT
+JPF         LABEL1
+PSHN_L      5
+PSHN_L      12
+REQEW       1
+JMP         LABEL2
+LABEL1
+PSHN_L      5
+PSHN_L      25
+REQEW       3
+LABEL2
+PSHN_L      12
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      10
+PSHN_L      127
+PSHN_L      1
+EFFECTPLAY2 3
+PSHN_L      1
+PSHN_L      30
+PSHN_L      127
+SEVOLTRANS
+PSHN_L      0
+PSHN_L      0
+PSHN_L      0
+PSHN_L      50
+PSHN_L      50
+PSHN_L      50
+PSHN_L      30
+FCOLSUB
+COLSYNC
+PSHN_L      10
+WAIT
+PSHN_L      1
+PSHN_L      30
+PSHN_L      0
+SEVOLTRANS
+PSHN_L      50
+PSHN_L      50
+PSHN_L      50
+PSHN_L      0
+PSHN_L      0
+PSHN_L      0
+PSHN_L      30
+FCOLSUB
+COLSYNC
+PSHN_L      0
+WINCLOSE
+PSHN_L      3
+ISPARTY
+PSHI_L      TEMP0
+PSHN_L      0
+CAL         GT
+JPF         LABEL3
+PSHN_L      5
+PSHN_L      26
+REQEW       3
+JMP         LABEL4
+LABEL3
+PSHN_L      5
+PSHN_L      19
+REQEW       2
+LABEL4
+PSHN_L      11
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      1
+ISPARTY
+PSHI_L      TEMP0
+PSHN_L      0
+CAL         GT
+JPF         LABEL5
+PSHN_L      5
+PSHN_L      13
+REQEW       1
+JMP         LABEL6
+LABEL5
+PSHN_L      5
+PSHN_L      27
+REQEW       3
+LABEL6
+PSHN_L      13
+POPM_B      VAR1026
+PSHN_L      5
+PSHN_L      42
+REQEW       5
+PSHN_L      7
+POPM_B      VAR437
+INITSOUND
+DYING
+PSHN_L      795
+PSHN_L      -1612
+PSHN_L      -399
+PSHN_L      0
+PSHN_L      252
+MAPJUMP3    10
+LABEL7
+HALT        0
+RET         8
